@@ -166,8 +166,8 @@ p {
 
     /* Headings & text */
     h1 {
-        font-size: 18px;
-        margin-top: 30px;
+        font-size: 23px;
+        margin-top: 100px;
     }
 
     p {
@@ -175,24 +175,25 @@ p {
     }
 
     .final-text {
-        font-size: 13px;
+        font-size: 17px;
         padding: 8px 15px;
     }
 
     /* Cat image */
     .cat {
-        width: 100px;
+        width: 150px;
     }
 
     .letter-window.final .cat {
-        width: 80px;
+        width: 120px;
+        margin-bottom: 40px;
     }
 
     /* Buttons */
     .buttons {
         gap: 20px;
         flex-wrap: wrap;
-        margin-top: 30px;
+        margin-top: 50px;
     }
 
     .btn,
