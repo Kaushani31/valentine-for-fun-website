@@ -139,3 +139,65 @@ p {
     background-color: rgba(255, 240, 240, 0.5);
     border-radius: 12px;
 }
+
+/* =========================
+   📱 MOBILE VIEW ONLY
+   ========================= */
+@media (max-width: 600px) {
+
+    body {
+        padding: 10px;
+        background-size: cover;
+    }
+
+    /* Envelope */
+    #envelope {
+        width: 150px;
+    }
+
+    /* Letter window */
+    .letter-window {
+        width: 95vw;
+        aspect-ratio: auto;
+        padding: 140px 15px 20px 15px;
+        background-size: contain;
+        transform: scale(1);
+    }
+
+    /* Headings & text */
+    h1 {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    p {
+        font-size: 21px;
+    }
+
+    .final-text {
+        font-size: 13px;
+        padding: 8px 15px;
+    }
+
+    /* Cat image */
+    .cat {
+        width: 100px;
+    }
+
+    .letter-window.final .cat {
+        width: 80px;
+    }
+
+    /* Buttons */
+    .buttons {
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+
+    .btn,
+    .yes-btn,
+    .no-btn {
+        width: 90px;
+    }
+}
